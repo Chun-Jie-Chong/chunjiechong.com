@@ -1,20 +1,12 @@
 ---
 layout: index
-title: Welcome
-# description: Simple landing page built with Jekyll
+title: Publications
+description: Publications and works
 ---
 
-## Hey there,
+## Publications
 
-I am a PhD candidate from the [Department of Computer Science](https://cs.njit.edu/) at [New Jersey Institute of Technology (NJIT)](https://www.njit.edu/).
-My doctoral advisor is [Professor Zhihao (Zephyr) Yao](https://web.njit.edu/~zy8/). I am a member of the Redoubt Lab research group.
-
-I received my B.S. *cum laude* in Computer Science from the University of Arizona in 2018 and M.S. in Software Engineering from NJIT in 2023.
-
-My research focuses on the **security and privacy aspects of artificial intelligence and mobile systems**.
-
-
-### Publications
+### Conference Papers
 - ***Casper: Prompt Sanitization for Protecting User Privacy in Web-Based Large Language Models***.  
   **Chun Jie Chong**, Chenxi Hou, Zhihao Yao, and Seyed Mohammadjavad Seyed Talebi.  
   IEEE CSCloud, 2025.  
@@ -28,7 +20,10 @@ My research focuses on the **security and privacy aspects of artificial intellig
   <a href="https://ieeexplore.ieee.org/abstract/document/11226452" target="_blank" rel="noopener noreferrer" class="html-badge">
     <img src="{{ '/assets/icons/HTML.svg' | relative_url }}" alt="HTML" class="icon-img" /> HTML
   </a>
-  
+
+---
+
+### Journal Articles
 - ***Predicting Solar Proton Events of Solar Cycles 22–24 Using GOES Proton and Soft-X-Ray Flux Features***.
   Aatiya Ali, Viacheslav Sadykov, Alexander Kosovichev, Irina N. Kitiashvili, Vincent Oria, Gelu M. Nita, Egor Illarionov, Patrick M. O’Keefe, Fraila Francis, **Chun-Jie Chong**, Paul Kosovich, and Russell D. Marroquin.
   The Astrophysical Journal Supplement Series, 2024.  
@@ -66,26 +61,10 @@ My research focuses on the **security and privacy aspects of artificial intellig
     <img src="{{ '/assets/icons/HTML.svg' | relative_url }}" alt="HTML" class="icon-img" /> HTML
   </a>
 
-### News
+---
 
-<div class="news-item">
-<strong>November 8, 2025:</strong> Presented paper <em>Casper</em> at IEEE CSCloud.
-</div>
-
-<div class="news-item">
-<strong>September 21, 2025:</strong> <a href="https://ieeexplore.ieee.org/abstract/document/11261423" target="_blank" rel="noopener noreferrer">Paper <em>Casper</em> accepted at IEEE CSCloud.</a>
-</div>
-
-<div class="news-item">
-<strong>September 11, 2025:</strong> Received travel grant from IEEE SecDev.
-</div>
-
-<div class="news-item">
-<strong>August 2, 2025:</strong> <a href="https://ieeexplore.ieee.org/abstract/document/11226452" target="_blank" rel="noopener noreferrer">Paper <em>Catamaran</em> accepted at IEEE SecDev.</a>
-</div>
-
-<div class="news-item">
-<strong>November 12, 2024:</strong> Passed Qualifying Exam.
-</div>
-
-
+<!-- ### Preprints
+- ***Artificial-Intelligence Generated Code Considered Harmful: A Road Map for Secure and High-Quality Code Generation***  
+  **Chun Jie Chong**, Zhihao Yao, Iulian Neamtiu.  
+  arXiv preprint, 2024.  
+  [arXiv](https://arxiv.org/pdf/2409.19182?) -->

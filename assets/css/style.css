@@ -62,3 +62,202 @@ footer {
   padding: 2rem; 
   color: #888; 
 }
+
+/* Page layout */
+.page-layout {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  gap: 3rem;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 260px;
+  position: sticky;
+  top: 140px; /* accounts for thick sticky nav bar */
+  align-self: flex-start;
+}
+
+/* Profile image */
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 1rem;
+}
+
+
+/* Sidebar text */
+.sidebar h2 {
+  margin: 0.5rem 0;
+}
+
+.sidebar p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.sidebar {
+  text-align: left; /* keep photo & name centered */
+}
+
+.sidebar-info {
+  text-align: left;
+}
+
+/* Sidebar links (clickable icons/text) */
+.sidebar-info a {
+  text-decoration: none;   /* remove underline */
+  color: inherit;          /* match the text color */
+  font-weight: 500;        /* optional: slightly bolder */
+  transition: color 0.2s, transform 0.2s; /* smooth hover */
+}
+
+/* Hover effect */
+.sidebar-info a:hover {
+  color: #0077cc;          /* highlight color on hover */
+  transform: translateX(2px); /* optional: small shift */
+}
+
+
+/* Main content */
+.content {
+  flex: 1;
+}
+
+.icon-img {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;       /* makes SVG inherit text color */
+  flex-shrink: 0;
+  vertical-align: middle;
+  transform: translateY(-2px); /* tweak +1px or -1px */
+}
+
+.linkedin-icon {
+  margin-bottom: 2px; /* move the icon up slightly */
+  vertical-align: middle;
+}
+
+.cv-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #0077cc;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.cv-button:hover {
+  background-color: #005fa3;
+  transform: translateY(-2px);
+}
+
+/* .news-item {
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  border-left: 2px solid #0077cc;
+  color: #333;
+} */
+
+/* News timeline style */
+.news-item {
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  border-left: 3px solid #0077cc; /* vertical line */
+  color: #333;
+  font-size: 1.1rem;
+  line-height: 1.6; 
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.news-item:hover {
+  background-color: rgba(0, 119, 204, 0.05); /* subtle highlight on hover */
+  transform: translateX(2px); /* slight shift to indicate interactivity */
+}
+
+.news-item a {
+  text-decoration: none;       /* remove underline */
+  color: inherit;              /* keep same color as text */
+  background: none;            /* remove any background highlight */
+  transition: color 0.2s;      /* optional smooth hover */
+}
+
+.news-item a:hover {
+  color: #0077cc;              /* subtle hover color to show it’s clickable */
+  cursor: pointer;             /* shows hand cursor */
+}
+
+
+.news-item strong {
+  color: #0077cc; /* highlight the date */
+}
+
+.pdf-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  background-color: #fff;        /* white background */
+  color: #d9534f;                /* red text */
+  border: 2px solid #d9534f;    /* red border */
+  padding: 0.25rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.2s, transform 0.2s;
+
+}
+
+.pdf-badge:hover {
+  background-color: #d9534f;
+  color: white;
+  transform: translateY(-1px);
+  cursor: pointer;
+}
+
+.pdf-badge img.icon-img {
+  width: 16px;
+  height: 16px;
+  margin-bottom: -2px;   /* move icon slightly down */
+  vertical-align: middle;
+}
+
+.html-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  background-color: #fff;        /* white background */
+  color: #0077cc;                /* blue text */
+  border: 2px solid #0077cc;    /* blue border */
+  padding: 0.25rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.2s, transform 0.2s;
+  margin-top: 0.75rem;
+}
+
+.html-badge:hover {
+  background-color: #0077cc;
+  color: white;
+  transform: translateY(-1px);
+  cursor: pointer;
+}
+
+.html-badge img.icon-img {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-bottom: -2px;   /* align icon like PDF */
+}
+

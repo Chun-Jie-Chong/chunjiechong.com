@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/style.css' | relative_url }}"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-links">
+        <a href="{{ '/' | relative_url }}">About</a>
+        <a href="{{ '/publications' | relative_url }}">Publications</a>
+        <a href="{{ '/news' | relative_url }}">News</a>
+      </div>
+    </nav>
+
+    <!-- <header>
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.description }}</p>
+  </header> -->
+
+    <main class="page-layout">
+      <aside class="sidebar">
+        <img
+          src="{{ '/assets/profile.jpg' | relative_url }}"
+          alt="Profile photo"
+          class="profile-pic"
+        />
+
+        <h2>Chun Jie Chong</h2>
+        <p>PhD Candidate, NJIT</p>
+
+        <div class="sidebar-info">
+          <p>
+            <img
+              src="{{ '/assets/icons/location.svg' | relative_url }}"
+              alt="Location"
+              class="icon-img"
+            />
+            <strong>Kearny, NJ</strong>
+          </p>
+          <p>
+            <img
+              src="{{ '/assets/icons/school.svg' | relative_url }}"
+              alt="School"
+              class="icon-img"
+            />
+            <strong>NJIT</strong>
+          </p>
+          <p><a href="mailto:cc255@njit.edu">
+            <img
+              src="{{ '/assets/icons/email.svg' | relative_url }}"
+              alt="Email"
+              class="icon-img"
+            />
+            <strong>Email</strong></a>
+          </p>
+          <p><a
+                href="https://scholar.google.com/citations?user=2Fi_er8AAAAJ&hl=en" target="_blank" rel="noopener noreferrer"
+                >
+            <img
+              src="{{ '/assets/icons/google-scholar.svg' | relative_url }}"
+              alt="Google Scholar"
+              class="icon-img"
+            />
+            <strong
+              >Google Scholar</strong
+            ></a
+              >
+          </p>
+          <p><a href="https://github.com/Chun-Jie-Chong" target="_blank" rel="noopener noreferrer">
+            <img
+              src="{{ '/assets/icons/github.svg' | relative_url }}"
+              alt="GitHub"
+              class="icon-img"
+            />
+            <strong>GitHub</strong></a>
+          </p>
+          <p><a
+                href="https://www.linkedin.com/in/chun-jie-chong/" target="_blank" rel="noopener noreferrer"
+                >
+            <img
+              src="{{ '/assets/icons/linkedin.svg' | relative_url }}"
+              alt="LinkedIn"
+              class="icon-img linkedin-icon"
+            />
+            <strong
+              >LinkedIn</strong
+            ></a>
+          </p>
+          <p><a href="/assets/cv.pdf" target="_blank" rel="noopener noreferrer">
+            <img
+              src="{{ '/assets/icons/cv.svg' | relative_url }}"
+              alt="CV"
+              class="icon-img"
+            />
+            <strong>CV</strong></a>
+          </p>
+        </div>
+      </aside>
+
+      <section class="content">{{ content }}</section>
+    </main>
+
+    <!-- <footer>
+    &copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.
+  </footer> -->
+  </body>
+</html>
