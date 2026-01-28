@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Welcome
+title: Chun Jie Chong
 # description: Simple landing page built with Jekyll
 ---
 
