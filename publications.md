@@ -1,7 +1,6 @@
 ---
 layout: index
-title: Publications
-description: Publications and works
+title: Chun Jie Chong
 ---
 
 ## Publications

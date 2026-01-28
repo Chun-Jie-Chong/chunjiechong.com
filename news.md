@@ -1,7 +1,6 @@
 ---
 layout: index
-title: News
-description: Latest updates
+title: Chun Jie Chong
 ---
 
 ## News

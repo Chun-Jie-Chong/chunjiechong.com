@@ -106,8 +106,8 @@
       <section class="content">{{ content }}</section>
     </main>
 
-    <!-- <footer>
-    &copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.
-  </footer> -->
+    <footer>
+      &copy; {{ site.time | date: "%Y" }} {{ page.title }}. Last updated: {{ site.time | date: "%B %d, %Y" }}
+    </footer>
   </body>
 </html>
