@@ -88,6 +88,7 @@ footer {
   border-radius: 50%;
   display: block;
   margin: 1rem;
+  object-position: center top;
 }
 
 
