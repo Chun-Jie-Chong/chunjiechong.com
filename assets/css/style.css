@@ -262,3 +262,61 @@ footer {
   margin-bottom: -2px;   /* align icon like PDF */
 }
 
+/* --- Mobile responsiveness --- */
+@media screen and (max-width: 768px) {
+  .page-layout {
+    flex-direction: column;  /* stack sidebar above content */
+    gap: 1rem;
+  }
+
+  .sidebar {
+    width: 100%;
+    position: relative;       /* remove sticky on mobile */
+    top: auto;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .profile-pic {
+    width: 100px;             /* smaller on mobile */
+    height: 100px;
+    display: block;
+    margin: 0 auto 0.75rem;
+  }
+
+  .sidebar-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.6rem 0.8rem;
+    justify-items: start;   /* center items in each column */
+  }
+
+  .sidebar-info p {
+    margin: 0;
+  }
+
+  .sidebar-info a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.9rem;
+  }
+
+  .badge {
+    padding: 0.2rem 0.4rem;   /* shrink PDF/DOI badges */
+    font-size: 0.8rem;
+  }
+}
+
+/* Extra small screens */
+@media screen and (max-width: 480px) {
+  .content {
+    font-size: 0.95rem;
+  }
+}
