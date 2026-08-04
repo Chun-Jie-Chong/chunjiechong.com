@@ -35,7 +35,7 @@ My research focuses on the **security and privacy aspects of artificial intellig
   <a  target="_blank" rel="noopener noreferrer" class="html-badge">
     <img src="{{ '/assets/icons/html.svg' | relative_url }}" alt="HTML" class="icon-img" /> To Appear
   </a>
-  <a href="assets/ease26.pdf" target="_blank" rel="noopener noreferrer" class="pdf-badge">
+  <a href="{{ '/assets/ease26.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" class="pdf-badge">
     <img src="{{ '/assets/icons/pdf.svg' | relative_url }}" alt="PDF" class="icon-img" /> PDF
   </a>
 
