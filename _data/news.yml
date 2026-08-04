@@ -1,4 +1,10 @@
 items:
+  - date: "July 23, 2026:"
+    text: "Our LLM reproducibility paper received the 🏆 Best Paper Award at ACM REP'26."
+  - date: "May 27, 2026:"
+    text: "Our LLM reproducibility study and record-and-replay methods survey are accepted at ACM REP'26."
+  - date: "March 12, 2026:"
+    text: "Our LLM code generation study is accepted at EASE'26."
   - date: "November 8, 2025:"
     text: "Presented paper <em>Casper</em> at IEEE CSCloud."
   - date: "September 21, 2025:"
