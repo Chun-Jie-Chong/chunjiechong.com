@@ -6,6 +6,30 @@ title: Chun Jie Chong
 ## Publications
 
 ### Conference Papers
+- ***Measuring Reproducibility in LLM Research: A Rubric and Cross-Topic Corpus Study***.   
+  **Chun Jie Chong**, Chenxi Hou, Sichao Liu, and Zhihao Yao.   
+  ACM REP, 2026. 🏆 Best Paper Award    
+  <a  target="_blank" rel="noopener noreferrer" class="html-badge">
+    <img src="{{ '/assets/icons/html.svg' | relative_url }}" alt="HTML" class="icon-img" /> To Appear
+  </a>
+
+- ***Record and Replay Methods for Software Engineering Reproducibility: A Cross-Layer Survey and Taxonomy***.
+  Chenxi Hou, **Chun Jie Chong**, Mahya Samdaliri, Sichao Liu, and Zhihao Yao.    
+  ACM REP, 2026.  
+  <a  target="_blank" rel="noopener noreferrer" class="html-badge">
+    <img src="{{ '/assets/icons/html.svg' | relative_url }}" alt="HTML" class="icon-img" /> To Appear
+  </a>
+
+- ***Can LLMs be Effective Code Contributors? A Study on Open-source Projects***.   
+  **Chun Jie Chong**, Muyeed Ahmed, Zhihao Yao, and Iulian Neamtiu.   
+  EASE, 2026.   
+  <a  target="_blank" rel="noopener noreferrer" class="html-badge">
+    <img src="{{ '/assets/icons/html.svg' | relative_url }}" alt="HTML" class="icon-img" /> To Appear
+  </a>
+  <a href="assets/ease26.pdf" target="_blank" rel="noopener noreferrer" class="pdf-badge">
+    <img src="{{ '/assets/icons/pdf.svg' | relative_url }}" alt="PDF" class="icon-img" /> PDF
+  </a>
+
 - ***Casper: Prompt Sanitization for Protecting User Privacy in Web-Based Large Language Models***.  
   **Chun Jie Chong**, Chenxi Hou, Zhihao Yao, and Seyed Mohammadjavad Seyed Talebi.  
   IEEE CSCloud, 2025.  
@@ -24,7 +48,7 @@ title: Chun Jie Chong
 
 ### Journal Articles
 - ***Predicting Solar Proton Events of Solar Cycles 22–24 Using GOES Proton and Soft-X-Ray Flux Features***.
-  Aatiya Ali, Viacheslav Sadykov, Alexander Kosovichev, Irina N. Kitiashvili, Vincent Oria, Gelu M. Nita, Egor Illarionov, Patrick M. O’Keefe, Fraila Francis, **Chun-Jie Chong**, Paul Kosovich, and Russell D. Marroquin.
+  Aatiya Ali, Viacheslav Sadykov, Alexander Kosovichev, Irina N. Kitiashvili, Vincent Oria, Gelu M. Nita, Egor Illarionov, Patrick M. O’Keefe, Fraila Francis, **Chun-Jie Chong**, Paul Kosovich, and Russell D. Marroquin.   
   The Astrophysical Journal Supplement Series, 2024.  
   <a href="https://iopscience.iop.org/article/10.3847/1538-4365/ad0a6c/meta" target="_blank" rel="noopener noreferrer" class="html-badge">
     <img src="{{ '/assets/icons/html.svg' | relative_url }}" alt="HTML" class="icon-img" /> HTML
@@ -34,7 +58,7 @@ title: Chun Jie Chong
   </a>
 
 - ***Time Series of Magnetic Field Parameters of Merged MDI and HMI Space-weather Active Region Patches as Potential Tool for Solar Flare Forecasting***.
-  Paul A. Kosovich, Alexander G. Kosovichev, Viacheslav M. Sadykov, Spiridon Kasapis, Irina N. Kitiashvili, Patrick M. O’Keefe, Aatiya Ali, Vincent Oria, Samuel Granovsky, **Chun Jie Chong**, and Gelu M. Nita.
+  Paul A. Kosovich, Alexander G. Kosovichev, Viacheslav M. Sadykov, Spiridon Kasapis, Irina N. Kitiashvili, Patrick M. O’Keefe, Aatiya Ali, Vincent Oria, Samuel Granovsky, **Chun Jie Chong**, and Gelu M. Nita.   
   The Astrophysical Journal, 2024.  
   <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ad60c3/meta" target="_blank" rel="noopener noreferrer" class="html-badge">
     <img src="{{ '/assets/icons/html.svg' | relative_url }}" alt="HTML" class="icon-img" /> HTML
