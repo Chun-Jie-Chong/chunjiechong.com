@@ -68,6 +68,6 @@ My research focuses on the **security and privacy aspects of artificial intellig
 
 ### News
 
-{% include news_items.html %}
+{% include news_items.html limit=6 %}
 
 

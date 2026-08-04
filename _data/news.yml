@@ -1,0 +1,13 @@
+items:
+  - date: "November 8, 2025:"
+    text: "Presented paper <em>Casper</em> at IEEE CSCloud."
+  - date: "September 21, 2025:"
+    text: "Paper <em>Casper</em> accepted at IEEE CSCloud."
+    link: "https://ieeexplore.ieee.org/abstract/document/11261423"
+  - date: "September 11, 2025:"
+    text: "Received travel grant from IEEE SecDev."
+  - date: "August 2, 2025:"
+    text: "Paper <em>Catamaran</em> accepted at IEEE SecDev."
+    link: "https://ieeexplore.ieee.org/abstract/document/11226452"
+  - date: "November 12, 2024:"
+    text: "Passed Qualifying Exam."
