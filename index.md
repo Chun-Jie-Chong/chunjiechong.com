@@ -13,6 +13,7 @@ I received my B.S. *cum laude* in Computer Science from the University of Arizon
 
 My research focuses on the **security and privacy aspects of artificial intelligence and mobile systems**.
 
+---
 
 ### Selected Publications
 - ***Measuring Reproducibility in LLM Research: A Rubric and Cross-Topic Corpus Study***.   
@@ -64,6 +65,8 @@ My research focuses on the **security and privacy aspects of artificial intellig
   <a href="https://github.com/redoubt-lab/Catamaran" target="_blank" rel="noopener noreferrer" class="artifact-badge">
     <img src="{{ '/assets/icons/artifact.svg' | relative_url }}" alt="HTML" class="icon-img" /> Artifact
   </a>
+
+---
 
 ### News
 
